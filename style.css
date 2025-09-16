@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(116, 154, 166);
+    text-align: center;
+    max-width: 100%;
+    margin-top: 400px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.d1{
+    background-color: darkblue;
+    color: white;
+    font-size: 80px;
+    margin-bottom: 30px;
+}
+button{
+    font-size: 30px;
+    padding: 20px 30px;
+    background-color: darkblue;
+    color: white;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: blue;
+}
